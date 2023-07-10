@@ -11,9 +11,9 @@
 		"strict": true,
 		"noUncheckedIndexedAccess": true,
 		"noImplicitAny": true,
-		"noEmitOnError": true,
-		
+		"noEmitOnError": true
 	}
+
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
 	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
