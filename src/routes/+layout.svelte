@@ -2,7 +2,6 @@
 	import { PAGE_DESCRIPTION, PAGE_TITLE } from '../constants';
 	import Header from './Header.svelte';
 	import Footer from './Footer.svelte';
-	import '../app.css';
 </script>
 
 <svelte:head>
