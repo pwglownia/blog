@@ -13,3 +13,31 @@
 
 	<button />
 </nav>
+
+<style>
+	nav {
+		padding-block: var(--size-7);
+	}
+
+	li {
+		margin-block: var(--size-7);
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	@media (min-width: 768px) {
+		nav {
+			display: grid;
+			justify-content: space-between;
+		}
+
+		li {
+			display: flex;
+			gap: var(--size-7);
+			margin-block: 0;
+		}
+	}
+</style>
